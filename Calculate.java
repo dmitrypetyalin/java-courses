@@ -1,5 +1,8 @@
 public class Calculate {
 	public static void main(String[] args){
-		System.out.println("Calculating...");
+		int x = Integer.parseInt(args[0]);
+		int y = Integer.parseInt(args[1]);
+		int result = x + y;
+		System.out.println("Addition is " + result);
 	}
 }
